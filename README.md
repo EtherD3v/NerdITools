@@ -1,2 +1,2 @@
-# NerD3v
+# NerD3√ 1
 Tools for Nerds 🤓
