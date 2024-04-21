@@ -1,4 +1,4 @@
-# NerD3√ 1
+# NerdITools √1
 Tools for Nerds 🤓
 
 Clone the repository : 
