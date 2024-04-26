@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Exo+2:400,900,800,700,600,500,300,200,100);
+
+html,
+body {
+    display: grid;
+  place-items: center;
+    background: #d4d4d4;
+}
+
+.h1 {
+   overflow: clip;
+  display: grid;
+  grid-template-columns: 0fr;
+  min-width: 0;
+  padding: 0 .1em;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 200;
+    font-size: 5rem;
+    color: #2c3e50;
+    outline: 0;
+    text-decoration: none;
+    border-bottom: solid 1.5px green;
+    transition: font-weight .2s ease-in-out;
+    
+    &:hover {
+        font-weight: 750;
+        animation: bbt .2s both;
+    }
+}
+@keyframes bbt{
+  to{border-bottom: solid 4px #014a28}
+}
+p{
+  font-size: 9rem;
+  margin-top: 0px;
+}
