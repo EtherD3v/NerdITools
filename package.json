@@ -1,0 +1,24 @@
+{
+  "name": "NerdITools",
+  "version": "1.0.0",
+  "description": "Clone the repository :  ``` git clone https://github.com/EtherD3v/NerdingTool.git ``` <h3><u>Description:</u></h3> NerdITools est une plateforme conçue pour répondre aux besoins des personnes férus de technologie. Il fournit une large gamme d'outils, de ressources et de services pour aider les nerds à améliorer leur productivité et leur créativité. Des éditeurs de code et utilitaires de débogage aux outils de gestion de projet et de collaboration, NerdITools est là pour vous.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite bluid"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EtherD3v/NerdITools.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EtherD3v/NerdITools/issues"
+  },
+  "homepage": "https://github.com/EtherD3v/NerdITools#readme",
+  "devDependencies": {
+    "vite": "^5.2.10"
+  }
+}
