@@ -1,2 +1,0 @@
-WRN 2024-04-25T19:56:36.272 ?.14816    server_start:166: Failed to start server: no such file or directory: /run/user/1000//
-WRN 2024-04-25T19:56:56.642 ?.14899    server_start:166: Failed to start server: no such file or directory: /run/user/1000//
