@@ -1,5 +1,7 @@
 # NerdITools √1
 
+![image](https://github.com/EtherD3v/NerdITools/assets/118121669/98627068-0e24-466e-a451-e7785d1c2d24)
+
 Clone the repository : 
 ```
 git clone https://github.com/EtherD3v/NerdingTool.git
