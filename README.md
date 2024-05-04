@@ -6,7 +6,8 @@ git clone https://github.com/EtherD3v/NerdingTool.git
 ```
 <h3><u>Description:</u></h3>
 NerdITools is a platform designed to cater to the needs of technology enthusiasts. It provides a wide range of tools, resources, and services to help nerds enhance their productivity and creativity. From code editors and debugging utilities to project management tools and collaboration features, NerdITools has got you covered.
-<u>Features:</u>
+
+<h3>Features:</h3>
 
 - __Code Editor__ :A robust code editor with syntax highlighting, auto-completion, and support for multiple languages.
 - __Debugging Utilities__ : Powerful debugging tools to help you identify and fix bugs in your code.
