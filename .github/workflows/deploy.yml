@@ -1,0 +1,27 @@
+name: Deploy to gh-pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      
+      - name: Install dependencies and build
+        run: |
+          npm install
+          npm run build
+
+      - name: Deploy to gh-pages
+        run: |
+          cp -r dist/* .
+          rm -rf dist
+          git add .
+          git commit -m "Update gh-pages with dist content" || echo "No changes to commit"
+          git push origin gh-pages
+
