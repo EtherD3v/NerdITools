@@ -17,6 +17,9 @@ git clone https://github.com/EtherD3v/NerdITools.git
 # Install dependencies
 npm install
 
+#Navigate to a lambda tool
+cd ./tools/{tool}
+
 # Launch development server
 npm run dev
 

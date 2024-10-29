@@ -8,7 +8,7 @@ import typescriptLogo from './img/typescript.svg';
 import smileFace from './img/smile.svg';
 
 import { setupCounter } from './counter.js';
-import { launchConfetti } from './confetti';
+import { launchConfetti } from './confetti.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   launchConfetti();
