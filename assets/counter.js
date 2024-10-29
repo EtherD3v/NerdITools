@@ -31,8 +31,6 @@ export function setupCounter(element) {
           alert("You failed! :( \n Please Retry.")
           element.innerHTML = `END`
         }
-        alert(result)
-        break;
     }
   }
   element.addEventListener('click', () => setCounter(counter + 1))
