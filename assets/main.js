@@ -1,14 +1,14 @@
 import './style.css';
 
-import javascriptLogo from './img/javascript.svg';
-import viteLogo from './img/vite.svg';
-import reactLogo from './img/react.svg';
-import eslintLogo from './img/eslint.svg';
-import typescriptLogo from './img/typescript.svg';
-import smileFace from './img/smile.svg';
+import javascriptLogo from './javascript.svg';
+import viteLogo from './vite.svg';
+import reactLogo from './react.svg';
+import eslintLogo from './eslint.svg';
+import typescriptLogo from './typescript.svg';
+import smileFace from './smile.svg';
 
 import { setupCounter } from './counter.js';
-import { launchConfetti } from './confetti';
+import { launchConfetti } from './confetti.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   launchConfetti();
