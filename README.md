@@ -3,8 +3,7 @@
 
 <div align="center">
   
-  ![NerdITools preview](https://etherd3v.github.io/NerdITools/)
-  
+  <a href="https://etherd3v.github.io/NerdITools/">NerdITools preview</a>
   [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
   
 </div>
