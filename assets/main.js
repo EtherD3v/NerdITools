@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 document.querySelector('#app').innerHTML = `
   <div>
-    <a href="https://vite.dev" target="_blank">
+    <a href="https://react.dev" target="_blank">
       <img src="${reactLogo}" class="logo" id="react" alt="React logo" />
     </a>
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
@@ -26,10 +26,10 @@ document.querySelector('#app').innerHTML = `
     <a href="https://vite.dev" target="_blank">
       <img src="${viteLogo}" class="logo" id="vite" alt="Vite logo" />
     </a>
-    <a href="https://vite.dev" target="_blank">
+    <a href="https://www.typescriptlang.org/" target="_blank">
       <img src="${typescriptLogo}" class="logo" id="ts" alt="TypeScript logo" />
     </a>
-    <a href="https://vite.dev" target="_blank">
+    <a href="https://eslint.org/" target="_blank">
       <img src="${eslintLogo}" class="logo" id="eslint" alt="ESlint logo" />
     </a>
     <h1>Try <a id="preview-a" href="https://github.com/EtherD3v/NerdITools">NerdITools</a> now !</h1>
