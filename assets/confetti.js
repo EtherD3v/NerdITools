@@ -1,5 +1,3 @@
-import confetti from 'canvas-confetti';
-
 export function launchConfetti() {
   var count = 200;
   var defaults = {
@@ -7,7 +5,7 @@ export function launchConfetti() {
   };
 
   function fire(particleRatio, opts) {
-    confetti({
+    window.confetti({
       ...defaults,
       ...opts,
       particleCount: Math.floor(count * particleRatio)
