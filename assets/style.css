@@ -138,14 +138,16 @@ h1 {
 }
 
 .read-the-docs {
-  color: #059669;
+  color: #22c55e;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #gateway{
-  color: #059669;
+  color: #22c55e;
+  font-weight: bold;
   transition: color .2s;
 }
 #gateway:hover{
-  color: #34d399;
+  color: #bbf7d0;
 }
 button {
   border-radius: 8px;
