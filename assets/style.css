@@ -11,7 +11,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --best-clr: #f59e0b;
+  --basic-clr: #64748b;
 }
 
 a {
@@ -36,19 +36,31 @@ h1:hover{
   transform: scale(1.035);
 }
 #ps{
-  font-size: 0.8em;
-  color: #f59e0b;
-  line-height: 4.5rem;
-  filter: drop-shadow(0 .25em 1.2em #ffffff);
+  color: var(--basic-clr);
+  font-size: 0.8em; 
+line-height: 4.5rem;
+  animation: blob-filter 7.5s infinite ease running;
+}
+#ps:hover{
+  animation-play-state: paused;
+}
+@keyframes blob-filter{
+  from, to{filter: drop-shadow(0 .25em 1em #ffffff)}
+  20%{filter: drop-shadow(0 .25em 1em #d8b4fe)}
+  40%{filter: drop-shadow(0 .25em 1em #86efac)}
+  60%{filter: drop-shadow(0 .25em 1em #fcd34d)}
+  80%{filter: drop-shadow(0 .25em 1em #93c5fd)}
 }
 #smile{
   animation: cool 5s ease infinite running;
   transition: transform .5s;
-  transform: translateY(1rem);
+}
+#idea{
+  transform: translateY(.35rem);
 }
 #dev-a{
-  color: var(--best-clr);
-  transition: color .4s
+  color: var(--basic-clr);
+transition: color .4s;
 }
 #dev-a:hover{
   color: #166534;
@@ -126,7 +138,7 @@ h1 {
 }
 
 .read-the-docs {
-  color: #888;
+  color: #064e3b;
 }
 
 button {
@@ -135,13 +147,15 @@ button {
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
+  color: #06b6d4;
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: border-color .5s, color .5s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #ea580c;
+  color: #ffffff;
 }
 button:focus,
 button:focus-visible {
