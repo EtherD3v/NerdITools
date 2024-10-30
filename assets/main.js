@@ -37,7 +37,7 @@ document.querySelector('#app').innerHTML = `
       <button id="counter" type="button" ></button>
     </div>
     <p class="read-the-docs">
-    <img src="${svgImages.lightBulb}" id="idea" alt="lightBulb"/> Click on NerdITools to learn more <img src="${svgImages.lightBulb}" id="idea" alt="lightBulb"/>
+    <img src="${svgImages.lightBulb}" id="idea" alt="lightBulb"/> Click <a href="../tools/gateway.html" id="gateway">[here]</a> to see the tools live <img src="${svgImages.lightBulb}" id="idea" alt="lightBulb"/>
     </p>
     <span id="ps">Made with <img src="${svgImages.smileFace}" id="smile" alt="smileFace"/> by <a href="https://github.com/EtherD3v" id="dev-a">EtherD3v</a></span>
   </div>`
