@@ -14,9 +14,7 @@
 # Clone the project
 git clone https://github.com/EtherD3v/NerdITools.git
 
-
-# Install dependencies
- # Make sure you have installed NodeJS before
+# Install dependencies (Make sure you have installed NodeJS before)
 npm install  
 
 #Navigate to a lambda tool
