@@ -24,7 +24,7 @@ export function setupCounter(element) {
         break;
       case 256:
         if ("yes" === prompt("Do you fingers hurt?")){
-          alert("You're an human! :)")
+          alert("You're a human! :)")
           element.innerHTML = `VERIFIED`;
         }
         else{
