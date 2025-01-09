@@ -1,25 +1,14 @@
-# NerdITools
-> A collection of creative tools - fun first, useful sometimes!
+# CURSORUN
 
-<div align="center">
-  
-  <a href="https://etherd3v.github.io/NerdITools/">NerdITools preview</a>
-  [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-  
-</div>
+Want to have fun with your cursor? If so, then cursoRun is for you!
 
-## Quick Start
+# Content
 
-```bash
-# Clone the project
-git clone https://github.com/EtherD3v/NerdITools.git
+- games : several modes and difficulties
+- experiments: you'll see, it's surprising!
+- Tips: how to become a cursor professional
+- And more ideas to come :)
 
-# Install dependencies (Make sure you have installed NodeJS before)
-npm install  
+# CREDITS
 
-#Navigate to a lambda tool
-cd ./tools/{tool}
-
-# Launch development server
-npm run dev
-
+Thank you to my patience, my curiosity, my creativity, my stupidity, my entourage, my rubber duck (no, in fact it's myself that I'm talking to), my 105-key AZERTY keyboard, my bed and everything else !
