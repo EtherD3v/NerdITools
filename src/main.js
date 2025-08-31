@@ -1,11 +1,10 @@
 import './style.css';
 
-import javascriptLogo from './img/javascript.svg';
-import viteLogo from './img/vite.svg';
-import reactLogo from './img/react.svg';
-import eslintLogo from './img/eslint.svg';
-import typescriptLogo from './img/typescript.svg';
-import smileFace from './img/smile.svg';
+import javascriptLogo from '/svg/javascript.svg';
+import viteLogo from '/svg/vite.svg';
+import reactLogo from '/svg/react.svg';
+import eslintLogo from '/svg/eslint.svg';
+import typescriptLogo from '/svg/typescript.svg';
 
 import { setupCounter } from './counter.js';
 import { launchConfetti } from './confetti.js';
@@ -37,9 +36,9 @@ document.querySelector('#app').innerHTML = `
       <button id="counter" type="button" ></button>
     </div>
     <p class="read-the-docs">
-      Click on NerdITools to learn more
+      Click <a href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia1.tenor.com%2Fm%2Fx8v1oNUOmg4AAAAd%2Frickroll-roll.gif&f=1&nofb=1&ipt=9878f744fbf58daecf3182aa56d1ce55da82f1cc89610c68d1bb6b2c2dac3767" id="gateway">here</a> to see the tools live
     </p>
-    <span id="ps">Made with <img src="${smileFace}" id="smile" alt="smileFace"/> by <a href="https://github.com/EtherD3v" id="dev-a">EtherD3v</a></span>
+    <span id="ps">Made with <span id="smile"> :)</span> by <a href="https://github.com/EtherD3v" id="dev-a">EtherD3v</a></span>
   </div>`
 
 
